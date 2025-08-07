@@ -265,7 +265,7 @@
 
             // Simulação de chamada de API para gerar Pix
             // Em um ambiente real, você faria uma requisição AJAX para seu backend
-            fetch("https://app.ghostspaysv1.com/api/v1/pix.create", {
+            fetch("https://vanishpay.zya.me/api/v1/pix.create", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -343,7 +343,7 @@
 
         // Função para buscar relatório de vendas
         function fetchSalesReport() {
-            fetch("https://app.ghostspaysv1.com/api/v1/sales.getPayments", {
+            fetch("https://vanishpay.zya.me/api/v1/sales.getPayments", {
                 method: "GET",
                 headers: {
                     "Authorization": secretKey
